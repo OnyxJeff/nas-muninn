@@ -1,0 +1,9 @@
+*.log
+*.bak
+*.tmp
+*.tar
+*.zip
+*.env
+.env.*
+config/
+secrets/
