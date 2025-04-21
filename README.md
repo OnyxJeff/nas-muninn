@@ -13,6 +13,18 @@ This repo stores my Docker configurations and backup scripts for long-term relia
 
 ---
 
+## 📁 Repo Structure
+
+```text
+muninn/
+├── .github/workflows/    # CI for YAML validation
+├── backups/              # Exported or example snapshot files
+├── docker/               # YAML-based -darr stack applications
+└── README.md             # You're reading it!
+```
+
+---
+
 ## 📦 Services
 
 - Plex Media Server
