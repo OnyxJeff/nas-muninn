@@ -25,7 +25,7 @@ muninn/
 
 ---
 
-## 📦 Services
+## 🧰 Services
 
 - Plex Media Server
 - Mealie (with built-in DB and persistent volumes)
