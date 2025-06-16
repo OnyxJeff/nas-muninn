@@ -8,7 +8,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=your_timezone
+      - TZ=America/New_York
       - VERSION=docker
       - PLEX_CLAIM= #optional
     volumes:

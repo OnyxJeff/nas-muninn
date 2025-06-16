@@ -6,13 +6,13 @@ services:
     container_name: mealie
     restart: always
     ports:
-      - "9925:9000"
+      - "30041:30041"
     deploy:
       resources:
         limits:
           memory: 1000M
     volumes:
-      - mealie-data:/app/data/
+      - immich-data:/app/data/
     environment:
       - ALLOW_SIGNUP=true
       - PUID=1000
@@ -20,6 +20,6 @@ services:
       - TZ=America/New_York
       - MAX_WORKERS=1
       - WEB_CONCURRENCY=1
-      - BASE_URL=http://192.168.1.8:9925 # Adjust this to your actual base URL
+      - BASE_URL=http://192.168.1.8:30041 # Adjust this to your actual base URL
 volumes:
   mealie-data:
