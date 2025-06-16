@@ -20,10 +20,14 @@ This repo stores my Docker configurations and backup scripts for long-term relia
 
 ```text
 muninn/
-├── .github/workflows/    # CI for YAML validation
-├── backups/              # Exported or example snapshot files
-├── docker/               # YAML-based -darr stack applications
-└── README.md             # You're reading it!
+├── .github/workflows/   # GitHub Actions workflows for validating YAML files and automating CI tasks
+├── backups/             # Backup scripts, cron jobs, and exported snapshots for ZFS, TrueNAS, or container configs
+├── docker/              # Docker Compose stacks used on Muninn (e.g. -darr stack, Plex, supporting services)
+├── hardware/            # Hardware-related documentation, part lists, benchmarks, or system-specific tuning notes
+├── notes/               # Freeform documentation, planning notes, and operational details (NAS layout, RAID config, etc.)
+├── scripts/             # Custom shell scripts used for automation, cleanup, health checks, or storage tasks
+├── vm/                  # VM configs, exported settings, or Proxmox/TrueNAS VM definitions
+└── README.md            # Project overview and documentation index
 ```
 
 ---
