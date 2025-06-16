@@ -1,7 +1,10 @@
 # Muninn
 
-![Build](https://github.com/OnyxJeff/Muninn/actions/workflows/build.yml/badge.svg)
-![Maintained](https://img.shields.io/badge/maintained-yes-blue)
+![Build Status](https://github.com/OnyxJeff/nas-muninn/actions/workflows/build.yml/badge.svg)
+![Maintenance](https://img.shields.io/maintenance/yes/2025.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![GitHub release](https://img.shields.io/github/v/release/OnyxJeff/nas-muninn)
+![Issues](https://img.shields.io/github/issues/OnyxJeff/nas-muninn)
 
 **Muninn** is my household-wide **TrueNAS Scale** NAS server.  
 It runs high-priority media and utility containers like:
