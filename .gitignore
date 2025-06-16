@@ -3,6 +3,11 @@
 *.tmp
 *.tar
 *.zip
-*.env
 config/
 secrets/
+.env
+pgdata/
+photos/
+mealie-data/
+plex-config/
+prometheus-data/
